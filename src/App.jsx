@@ -1,6 +1,5 @@
 
 import { useState } from 'react'
-
 import { motion, useReducedMotion } from 'framer-motion'
 
 import {
@@ -327,7 +326,7 @@ function About() {
             <div>
               <small>PROBLEM SOLVING</small>
               <strong>550+ DSA problems</strong>
-              <span>LeetCode & GeeksforGeeks</span>
+              <span>LeetCode &amp; GeeksforGeeks</span>
             </div>
           </div>
 
@@ -386,7 +385,7 @@ function Skills() {
   )
 }
 
-/* Project thumbnail illustrations */
+/* Project thumbnail illustrations and screenshots */
 
 function ProjectVisual({ type }) {
   if (type === 'commerce') {
@@ -408,16 +407,16 @@ function ProjectVisual({ type }) {
     )
   }
 
+  // StayEase actual website screenshot
   if (type === 'stay') {
     return (
-      <div className="visual-stay">
-        <div className="stay-house">
-          <div className="roof" />
-          <div className="house-body">
-            <i /><i />
-          </div>
-        </div>
-        <span className="visual-chip">FIND YOUR PLACE</span>
+      <div className="visual-stay screenshot-visual">
+        <img
+          className="simon-screenshot"
+          src="/images/stayease.png"
+          alt="StayEase property discovery website"
+          loading="lazy"
+        />
       </div>
     )
   }
@@ -438,6 +437,7 @@ function ProjectVisual({ type }) {
     )
   }
 
+  // Simon Says actual game screenshot
   if (type === 'simon') {
     return (
       <div className="visual-simon screenshot-visual">
@@ -666,7 +666,7 @@ function Footer() {
         Aneesh<span>.</span>
       </a>
 
-      <span>Designed & built with curiosity.</span>
+      <span>Designed &amp; built with curiosity.</span>
 
       <a href="#home">BACK TO TOP ↑</a>
 

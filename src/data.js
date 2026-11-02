@@ -34,8 +34,8 @@ export const projects = [
     stack: ['Node.js', 'Express.js', 'MongoDB', 'EJS', 'Passport.js', 'Cloudinary'],
     accent: 'amber',
     visual: 'stay',
-    github: '',
-    demo: '',
+    github: 'https://github.com/AneeshPal/StayEase',
+    demo: 'https://stayease-mi9f.onrender.com',
     details: [
       'Developed RESTful CRUD APIs for managing users, properties and reviews.',
       'Implemented session-based authentication and authorization using Passport.js and Express middleware.',
