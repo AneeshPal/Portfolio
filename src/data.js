@@ -27,7 +27,7 @@ export const projects = [
   ],
   accent: 'blue',
   visual: 'vidmind',
-  github: 'YOUR_GITHUB_REPOSITORY_URL',
+  github: 'https://github.com/AneeshPal/VidMind-AI',
   details: [
     'Built a Chrome extension with React and Manifest V3 to interact with the currently playing YouTube video.',
     'Developed a FastAPI backend to process YouTube transcripts and generate context-aware responses.',
