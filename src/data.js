@@ -9,9 +9,35 @@ export const profile = {
   resume: '/resume.pdf',
 }
 
-export const projects = [
+export const projects = [ 
+{
+  number: '01',
+  name: 'VidMind',
+  category: 'AI-POWERED CHROME EXTENSION',
+  description:
+    'An AI-powered YouTube assistant that lets users interact with video content through a context-aware chatbot. Uses Retrieval-Augmented Generation (RAG) to answer questions based on video transcripts.',
+  stack: [
+    'React',
+    'Chrome Extension MV3',
+    'Python',
+    'FastAPI',
+    'LangChain',
+    'OpenAI API',
+    'FAISS',
+  ],
+  accent: 'blue',
+  visual: 'vidmind',
+  github: 'YOUR_GITHUB_REPOSITORY_URL',
+  details: [
+    'Built a Chrome extension with React and Manifest V3 to interact with the currently playing YouTube video.',
+    'Developed a FastAPI backend to process YouTube transcripts and generate context-aware responses.',
+    'Implemented a RAG pipeline using LangChain and FAISS for transcript chunking, vector search and relevant context retrieval.',
+    'Integrated the OpenAI API to answer video-specific questions and generate summaries.',
+    'Implemented timestamp-based answers to help users navigate directly to relevant video sections.',
+  ],
+},
   {
-    number: '01',
+    number: '02',
     name: 'Hyperlocal Commerce Platform',
     category: 'FULL-STACK COMMERCE',
     description: 'A marketplace connecting buyers with nearby sellers through location-based product discovery, real-time conversations and integrated payments.',
@@ -27,7 +53,7 @@ export const projects = [
     ],
   },
   {
-    number: '02',
+    number: '03',
     name: 'StayEase',
     category: 'PROPERTY DISCOVERY',
     description: 'A property discovery platform with user authentication, listings, reviews, image uploads and location-based exploration.',
@@ -43,7 +69,7 @@ export const projects = [
     ],
   },
   {
-    number: '03',
+    number: '04',
     name: 'AI-Powered Conversational Assistant',
     category: 'GENERATIVE AI',
     description: 'A ChatGPT-inspired application supporting persistent chat threads and context-aware multi-turn conversations.',
@@ -59,7 +85,7 @@ export const projects = [
     ],
   },
   {
-    number: '04',
+    number: '05',
     name: 'Simon Says',
     category: 'INTERACTIVE WEB GAME',
     description: 'An interactive memory game that challenges players to remember and repeat increasingly complex sequences.',
